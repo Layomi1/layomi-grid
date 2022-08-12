@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    /* grid-row-gap: -70px;  */
+    /* background-attachment:scroll; */
+    overflow: scroll;
+
+}
+
+img.pattern {
+    float: right;
+    margin-right: -2px;
+    padding-top: 0;
+    margin-top: -90px;
+    width: 115px;
+    z-index: -1000;
+}
+
+section#Dan figure #avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(195, 172, 232, 0.75);
+}
+
+figure {
+    color: rgba(232, 225, 243, 0.85);
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+
+} 
+
+figcaption {
+    display: inline-block;
+    margin: 16px 10px 16px 10px;
+    justify-self: center;
+    align-self: center;
+    vertical-align: top;
+}
+
+span {
+    display: block;
+    color: rgba(195, 172, 232, 0.55);
+    margin-bottom: 5px;
+}
+
+.card-1 {
+    background-color: hsl(263, 55%, 52%);
+    background-size: content-box;
+    width: 80%;
+    height: 350px;
+    margin: 80px 50px 0px 50px;
+    border-radius: 12px;
+    text-align: left;
+    padding: 25px;
+
+}
+
+p.Dan {
+    color: rgba(232, 225, 243, 0.85);
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    line-height: 15px;
+    z-index: 100;
+
+}
+
+p.one {
+    color: rgba(195, 172, 232, 0.55);
+    word-spacing: 1px;
+    line-height: 18px;
+}
+
+section#Jon figure #avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%);
+}
+
+section#Jon figure {
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+}
+
+section#Jon span {
+    display: block;
+    color: hsl(0, 0%, 60%);
+    margin-bottom: 5px;
+}
+
+.card-2 {
+    background-color: hsl(217, 19%, 35%);
+    background-size: content-box;
+    width: 80%;
+    margin: 20px 50px 13px 50px;
+    border-radius: 12px;
+    text-align: left;
+    padding: 25px;
+}
+
+p.Jon {
+    color: hsl(0, 0%, 75%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    line-height: 18px;
+}
+
+p.two {
+    color: hsl(0, 0%, 60%);
+    line-height: 18px;
+}
+
+section#Jane figure #avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+section#Jane figure {
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+}
+
+
+section#Jane span {
+    display: block;
+    color: hsl(0, 0%, 81%);
+    margin-bottom: 5px;
+}
+
+.card-3 {
+    background-color: hsl(0, 0%, 100%);
+    background-size: content-box;
+    width: 80%;
+    height: 200px;
+    margin: 20px 50px 13px 50px;
+    border-radius: 12px;
+    text-align: left;
+    padding: 25px;
+
+}
+
+p.Jane {
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    line-height: 18px;
+    z-index: 100;
+
+}
+
+p.three {
+    color: hsl(0, 0%, 70%);
+    word-spacing: 2px;
+    line-height: 18px;
+}
+
+section#Pat figure #avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid hsl(263, 55%, 52%);
+}
+
+figure {
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+}
+
+section#Pat span {
+    display: block;
+    color: hsl(0, 0%, 60%);
+    margin-bottom: 5px;
+}
+
+.card-4 {
+    background-color: hsl(219, 29%, 14%);
+    background-size: content-box;
+    width: 80%;
+    height: 310px;
+    margin: 20px 50px 13px 50px;
+    border-radius: 12px;
+    text-align: left;
+    padding: 25px;
+
+}
+
+p.Pat {
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    line-height: 18px;
+}
+
+p.four {
+    color: hsl(0, 0%, 60%);
+    line-height: 18px;
+}
+
+section#Kira figure #avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+section#Kira figure {
+    color: hsl(210, 46%, 25%);
+    font-weight: 600;
+    justify-self: center;
+    align-self: center;
+}
+
+span {
+    display: block;
+    color: hsl(0, 0%, 70%);
+    margin-bottom: 5px;
+}
+
+.card-5 {
+    background-color: hsl(0, 0%, 100%);
+    background-size: content-box;
+    width: 80%;
+    height: 350px;
+    margin: 20px 50px 80px 50px;
+    border-radius: 12px;
+    text-align: left;
+    padding: 25px;
+}
+
+p.Kira {
+    color: hsl(210, 46%, 25%);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    line-height: 18px;
+}
+
+p.five {
+    color: hsl(0, 0%, 70%);
+    line-height: 15px;
+}
+@media screen and (min-width:769px) and (max-width:1440px) {
+    body { 
+        overflow: none;
+    }
+    div#showcase.grid {
+        display: grid;
+        grid-template-columns: 250px 250px 250px 250px ;
+        grid-template-rows: 300px 300px  ;
+        justify-items: center;
+        align-items: center; 
+        grid-gap: 30px;
+        height: 900px;
+        /* padding: 10px; */
+
+    }
+    
+    section#Dan.grid {
+        grid-column: 1 / span 2;
+        grid-row: 1/ span 2;
+        margin: 0px -80px 0px 80px;
+    
+    }
+        .card-1 {
+            padding-right: 80px;
+            padding-left: 80px; 
+            min-width: 70px;
+    }
+       
+    br {
+        content: "";
+
+    }
+    br:after {
+        content: "";
+    }
+        
+     p.Dan {
+             font-size: 20px;
+             line-height: 20px;
+             margin-bottom: 16px;
+             letter-spacing:2px ;
+             
+             
+    
+    }
+    
+    p.one {
+             font-size: 16px;
+             line-height: 22px;
+             text-align: justify;
+    }
+
+            
+    }
+section#Jon.grid {
+    grid-column: 3;
+    grid-row : 1 /span 2;
+    margin: 35px 5px 0px 280px; 
+    
+}
+ .card-2 {
+     min-height: 350px;
+     padding-right: 35px;
+     padding-left:35px ;
+
+ }
+ p.Jon {
+     font-size: 22px;
+     line-height: 22px;
+     margin-bottom: 16px;
+
+ }
+
+ p.two {
+     font-size: 22px;
+     line-height: 22px;
+ }
+ p.Jon {
+    font-size: 18px;
+    line-height: 20px;
+ }
+ p.two {
+     font-size: 20px;
+     line-height:22px ;
+ }
+section#Jane.grid{
+    grid-column: 1 ;
+    grid-row: 3;
+    margin: -110px 0px 0px 140px; 
+    
+}
+.card-3 {
+    min-height: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+p.Jane{
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 16px;
+
+}
+
+p.three {
+    font-size: 22px;
+    line-height: 22px;
+}
+ section#Pat.grid {
+    grid-column: 2 / span 3;
+    grid-row: 3;
+    margin: -110px 10px 0px 70px;  
+}
+.card-4 {
+    min-height: 350px;
+    padding-left:  20px;
+    padding-right: 20px;
+}
+p.Pat{
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 16px;
+
+}
+p.four {
+    font-size: 22px;
+    line-height: 22px;
+}
+ section#Kira.grid { 
+    grid-column: 4 ;
+    grid-row: 1 / 3;
+    margin: 700px 150px 150px 500px; 
+    
+}
+.card-5 {
+    min-height: 800px;
+
+}p.Kira {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 16px;
+
+}
+
+p.five {
+    font-size: 22px;
+    line-height: 20px;
+
+
+}
