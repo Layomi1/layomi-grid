@@ -181,7 +181,7 @@ section#pat.grid {
 .grid-item4 {
     background-color: hsl(219, 29%, 14%); 
     border-radius: 10px;
-    padding: 35px 30px 50px 30px;
+    padding: 35px 30px 52px 30px;
 }
 
 section#pat figure #avatar img {
@@ -225,7 +225,7 @@ section#kira .grid {
 .grid-item5 {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    padding: 35px ;
+    padding: 38px  ;
 }
 
 section#kira figure #avatar img {
