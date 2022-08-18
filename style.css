@@ -15,26 +15,24 @@ body {
 #showcase.grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 350px,200px 200px 310px 350px;
-    margin: 150px 90px;
-    grid-row-gap: 15px;
+    grid-template-rows: ;
+    max-height: 80vh;
+    margin: 180px auto;
+    grid-row-gap: 10px;
+    
 }
-
- /* img.pattern {  *
-    float: right;
-    margin-right: -2px;
-    padding-top: 0;
-    margin-top: -90px;
-    width: 115px;
-    z-index: -1000;
+section#Dan .grid {
+    display: grid;
+    grid-row:1/ 2 ;
 }
-/*  */
-section#Dan figure #avatar img {
+ 
+ /* section#Dan figure #avatar img {  
     width: 50px;
     height: 50px;
     border-radius: 50%;
     border: 2px solid rgba(195, 172, 232, 0.75);
-}
+} 
+
 
 figure {
     color: rgba(232, 225, 243, 0.85);
@@ -50,6 +48,7 @@ figcaption {
     justify-self: center;
     align-self: center;
     vertical-align: top;
+    font-weight: 600;
 }
 
 span {
@@ -59,12 +58,11 @@ span {
 }
 
 .card-1 {
-    background-color: hsl(263, 55%, 52%);
-    background-size: content-box;
-    width: 80%;
+    display: grid;
+    background: hsl(263, 55%, 52%) url(./images/bg-pattern-quotation.svg)  no-repeat;
     border-radius: 12px;
     text-align: left;
-    padding: 25px;
+    
 
 }
 
@@ -72,10 +70,10 @@ p.Dan {
     color: rgba(232, 225, 243, 0.85);
     font-weight: 600;
     font-size: 13px;
-    margin-bottom: 10px;
+    margin-top: 0px;
     word-spacing: 5px;
     line-height: 15px;
-    z-index: 100;
+    font-weight: 600;
 
 }
 
@@ -107,12 +105,9 @@ section#Jon span {
 
 .card-2 {
     background-color: hsl(217, 19%, 35%);
-    background-size: content-box;
-    width: 80%;
-    /* margin: 20px 50px 13px 50px; */
     border-radius: 12px;
     text-align: left;
-    padding: 25px;
+    margin-top: 0;
 }
 
 p.Jon {
@@ -151,13 +146,9 @@ section#Jane span {
 
 .card-3 {
     background-color: hsl(0, 0%, 100%);
-    background-size: content-box;
-    width: 80%;
-    /* height: 200px; */
-    /* margin: 20px 50px 13px 50px; */
     border-radius: 12px;
-    text-align: left;
-    padding: 25px;
+    
+    
 
 }
 
@@ -200,13 +191,10 @@ section#Pat span {
 
 .card-4 {
     background-color: hsl(219, 29%, 14%);
-    background-size: content-box;
     width: 80%;
-    /* height: 310px; */
-    /* margin: 20px 50px 13px 50px; */
+
     border-radius: 12px;
     text-align: left;
-    padding: 25px;
 
 }
 
@@ -245,13 +233,7 @@ span {
 
 .card-5 {
     background-color: hsl(0, 0%, 100%);
-    background-size: content-box;
-    width: 80%;
-    /* height: 350px; */
-    /* margin: 20px 50px 80px 50px; */
     border-radius: 12px;
-    text-align: left;
-    padding: 25px;
 }
 
 p.Kira {
@@ -267,7 +249,7 @@ p.five {
     color: hsl(0, 0%, 70%);
     line-height: 15px;
 }
-@media screen and (min-width:769px) and (max-width:1440px) {
+/* @media screen and (min-width:769px) and (max-width:1440px) { 
     body { 
         overflow: none;
     }
@@ -279,7 +261,7 @@ p.five {
         align-items: center; 
         grid-gap: 30px;
         height: 900px;
-        /* padding: 10px; */
+        /* padding: 10px; *
 
     }
     
