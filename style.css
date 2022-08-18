@@ -7,16 +7,20 @@
 
 body {
     background-color: hsl(210, 46%, 95%);
-    display: grid;
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    /* grid-row-gap: -70px;  */
-    /* background-attachment:scroll; */
     overflow: scroll;
 
 }
+#showcase.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px,200px 200px 310px 350px;
+    margin: 150px 90px;
+    grid-row-gap: 15px;
+}
 
-img.pattern {
+ /* img.pattern {  *
     float: right;
     margin-right: -2px;
     padding-top: 0;
@@ -24,7 +28,7 @@ img.pattern {
     width: 115px;
     z-index: -1000;
 }
-
+/*  */
 section#Dan figure #avatar img {
     width: 50px;
     height: 50px;
@@ -58,8 +62,6 @@ span {
     background-color: hsl(263, 55%, 52%);
     background-size: content-box;
     width: 80%;
-    height: 350px;
-    margin: 80px 50px 0px 50px;
     border-radius: 12px;
     text-align: left;
     padding: 25px;
@@ -107,7 +109,7 @@ section#Jon span {
     background-color: hsl(217, 19%, 35%);
     background-size: content-box;
     width: 80%;
-    margin: 20px 50px 13px 50px;
+    /* margin: 20px 50px 13px 50px; */
     border-radius: 12px;
     text-align: left;
     padding: 25px;
@@ -151,8 +153,8 @@ section#Jane span {
     background-color: hsl(0, 0%, 100%);
     background-size: content-box;
     width: 80%;
-    height: 200px;
-    margin: 20px 50px 13px 50px;
+    /* height: 200px; */
+    /* margin: 20px 50px 13px 50px; */
     border-radius: 12px;
     text-align: left;
     padding: 25px;
@@ -200,8 +202,8 @@ section#Pat span {
     background-color: hsl(219, 29%, 14%);
     background-size: content-box;
     width: 80%;
-    height: 310px;
-    margin: 20px 50px 13px 50px;
+    /* height: 310px; */
+    /* margin: 20px 50px 13px 50px; */
     border-radius: 12px;
     text-align: left;
     padding: 25px;
@@ -245,8 +247,8 @@ span {
     background-color: hsl(0, 0%, 100%);
     background-size: content-box;
     width: 80%;
-    height: 350px;
-    margin: 20px 50px 80px 50px;
+    /* height: 350px; */
+    /* margin: 20px 50px 80px 50px; */
     border-radius: 12px;
     text-align: left;
     padding: 25px;
