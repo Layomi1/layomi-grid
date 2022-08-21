@@ -31,7 +31,7 @@ span {
 
 }
 p.quote {
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 600;
     word-spacing: 5px;
     line-height: 22px;
@@ -48,7 +48,8 @@ p.info {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
-    min-width: 95%;
+    grid-template-rows: repeat(2, 1fr);
+    min-width: 90%;
 
 } 
 .grid-one {
@@ -56,7 +57,7 @@ p.info {
 }
  .card {
     border-radius: 12px;
-    padding: 20px 30px;
+    padding: 20px;
     /* object-fit: cover; */
     
  }
@@ -116,7 +117,7 @@ p.info {
 
 .grid-three .card {
     background-color:hsl(0, 0%, 100%);
-    padding-bottom: 45px;
+    /* padding-bottom: 45px; */
 
 }
 .grid-three {
@@ -190,10 +191,10 @@ p.info {
     color:hsl(0, 0%, 70%);
 
 }
-@media screen and (min-width:769px)and (max-width:1024) { 
+@media screen and (min-width: 769px)and (max-width:1024) { 
     .grid-container {
         display: grid;
-        width: 90%;
+        width: 80%;
     
  } 
  @media screen and(min-width:426px) and(max-width:768px) {  
